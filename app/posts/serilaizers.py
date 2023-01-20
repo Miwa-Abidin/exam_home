@@ -9,6 +9,7 @@ class StatusTypeSerializer(serializers.ModelSerializer):
     class Meta:
         model = StatusType
         fields = '__all__'
+        read_only_fields = ['slug']
 
 
 
